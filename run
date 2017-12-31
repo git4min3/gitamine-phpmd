@@ -17,7 +17,8 @@ do
    esac
 done
 
-FILES="$(gitamine f:c | grep -E "(\\.yaml$|\\.yml$)" | tr '\r\n' ',')"
+FILES="$(gitamine f:c | grep -E "\\.php$" | tr '\r\n' ',')"
+FILES=${FILES%?}
 LINES=${#FILES}
 
 if [ "$LINES" -gt "1" ]
