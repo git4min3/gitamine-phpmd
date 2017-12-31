@@ -1,0 +1,3 @@
+gitamine:
+  pre-commit:
+    shellcheck: ~
