@@ -5,6 +5,7 @@
 * php >= 7.1
 * phpmd
 * Linux/Mac
+* Gitamine
 
 ## Installation
 
