@@ -4,7 +4,7 @@ BIN=phpmd
 RULESET=unusedcode,codesize,controversial,design,naming
 
 # The reading options part
-while [[ $# -gt 0 ]] && [[ ."$1" = .--* ]] ;
+while [[ $# -gt 0 ]] && [[ ."$1" = .* ]] ;
 do
     opt="$1";
     shift;              #expose next argument
